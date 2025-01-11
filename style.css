@@ -1,0 +1,173 @@
+/* Enelver les marges de bases */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --------------------------- */
+
+/* Police */
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+nav {
+    background-color: black;
+    padding: 1rem;
+    border-radius: 500px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+
+nav ul {
+
+/* enlever les points à côtés des menus */
+    list-style: none;
+/* ------------------------------------ */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: wheat;
+}
+
+body {
+    background-color: #021526;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#img_intro {
+    display: flex;
+}
+
+#txt_intro {
+    display: flex;
+    color: antiquewhite;
+    flex-direction: row;
+}
+
+#Titre_portfolio {
+    background-color: wheat;
+    margin-left: 50%;
+    transform: translate(-50%);
+    color: black;
+    margin-top: 80px;
+    text-align: center;
+    width: 30%;
+    border-radius: 4%;
+}
+
+.Biopic {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: wheat;
+    margin: 8%;
+    padding: 8%;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    margin: 5%;
+}
+
+.image {
+    transition: transform 1s ease-in-out;
+    max-width: 20%;
+    height: auto;
+    border-radius: 8%;
+    margin: 0;
+}
+
+.rotate {
+    transform: rotate(40deg);
+}
+
+#image_7 {
+    rotate: 3deg;
+}
+#image_2 {
+    rotate: -3deg;
+}
+#image_3 {
+    rotate: 2deg;
+}
+#image_10 {
+    rotate: -3.8deg;
+}
+#image_5 {
+    rotate: -3.5deg;
+}
+#image_6 {
+    rotate: 2.5deg;
+}
+#image_8 {
+    rotate: -2.5deg;
+}
+#image_9 {
+    rotate: 3.5deg;
+}
+
+
+.container2 {
+    color: wheat;
+    display: inline-block;
+}
+
+.container3 {
+    color: wheat;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Lien_metier a {
+    text-decoration: none;
+    color: wheat;
+}
+
+#Lien_metier a:hover {
+    color: orange;
+}
+
+#Lien_entreprise a {
+    text-decoration: none;
+    color: wheat;
+}
+
+#Lien_entreprise a:hover {
+    color: orange;
+}
+
+
+#footer {
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+    border: #021526;
+    padding: 5%;
+}
