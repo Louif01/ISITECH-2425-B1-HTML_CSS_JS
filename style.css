@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", serif;
 }
 /* --------------------------- */
 
@@ -13,8 +14,17 @@
     font-style: normal;
 }
 
+.playwrite-regular {
+    font-family: 'Playwrite IN', serif;
+    font-weight: 400; /* Poids de la police */
+}
+
+/* Fin Police */
+
+/* Navbar */
 nav {
     background-color: black;
+    margin-top: 15px;
     padding: 1rem;
     border-radius: 500px;
     margin-left: 30%;
@@ -38,6 +48,8 @@ nav ul {
 }
 
 nav a {
+    font-weight: 200;
+    font-size: 20px;
     color: white;
     text-decoration: none;
 }
@@ -73,10 +85,13 @@ html {
     margin-top: 80px;
     text-align: center;
     width: 30%;
-    border-radius: 4%;
+    border-radius: 5px;
 }
 
 .Biopic {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
     display: flex;
     justify-content: center;
     color: black;
@@ -138,11 +153,77 @@ html {
 }
 
 .container3 {
+    font-weight: 200;
     color: wheat;
     font-size: large;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+/* .section-title {
+    text-align: center;
+    color: orange;
+    background-color: #333; Couleur de fond spécifique
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 20px;
+} */
+
+.section-title {
+    background-color: wheat;
+    margin-left: 50%;
+    transform: translate(-50%);
+    color: black;
+    margin-top: 80px;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.project-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #021526; /* Couleur de fond spécifique */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: row; /* Aligne l'image et la description en ligne */
+    align-items: center; /* Aligne les éléments en haut */
+    margin-bottom: 80px; /* Espace entre les paires image-description */
+}
+
+.project-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    color: #603F26;
+    width: 300px; /* Largeur fixe */
+    background-color: #FFFAEC; /* Couleur de fond spécifique */
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Empêche le contenu de déborder */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.project-description h2 {
+    margin-top: 0;
+}
+
+.project-description p {
+    margin: 10px 0 0;
 }
 
 #Lien_metier a {
@@ -165,9 +246,10 @@ html {
 
 
 #footer {
+    height: 80px;
+    width: 100%;
     display: flex;
     color: aliceblue;
-    background-color: black;
+    background-color: wheat;
     border: #021526;
-    padding: 5%;
 }
